@@ -1,6 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@import url("/static/fonts/Sailec\ Bold.ttf");
+
 * {
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
 }
 
 .container {
@@ -25,7 +33,12 @@ nav {
   height: 15px;
 }
 
-.nav_links {
+.nav__links {
+  width: 366px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  font-family: "Sailec Bold", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
 }
